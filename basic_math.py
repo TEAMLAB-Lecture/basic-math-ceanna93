@@ -99,5 +99,5 @@ def get_median(number_list):
     """
     sorted_list = number_list[:]
     sorted_list.sort()
-    median = sorted_list[int(len(sorted_list) / 2)] if len(sorted_list) % 2 else (sorted_list[int(len(sorted_list) / 2) - 1] + sorted_list[int(len(sorted_list) / 2])) / 2
+    median = sorted_list[int(len(sorted_list) / 2)] if len(sorted_list) % 2 else (sorted_list[int(len(sorted_list) / 2) - 1] + sorted_list[int(len(sorted_list) / 2)]) / 2
     return median
